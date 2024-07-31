@@ -1,17 +1,18 @@
 {
   "name": "rescript-next-template",
-  "namespace": false,
-  "sources": {
-    "dir": "src",
-    "subdirs": true
-  },
-  "package-specs": {
-    "module": "es6",
-    "in-source": true
-  },
-  "reason": {
-    "react-jsx": 3
-  },
-  "suffix": ".mjs",
-  "bs-dependencies": ["@rescript/react", "@rescriptbr/ancestor"]
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".js",
+  "jsx": { "version": 4, "mode": "classic" },
+  "bs-dependencies": ["@rescript/react"]
 }
